@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T02:40:02.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="BYevjTN3sTETWhRE0ZKF" version="14.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-07T02:53:32.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HPsPutJIAcPbjAKxRS8Q" version="14.6.9" type="github" pages="3">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -816,14 +816,56 @@
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-64" value="Simple Container with props.children&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1800" y="680" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-67" target="PuGdgSp_75TZ21ZuLs-3-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-67" value="MealItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="2080" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-69" target="PuGdgSp_75TZ21ZuLs-3-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-69" value="cartCtx useContext(CartContext)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="2080" y="680" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-71" target="PuGdgSp_75TZ21ZuLs-3-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-71" value="Renders H3, Div, Div, MealItemForm (props =&amp;gt; onAddToCart = addToCartHandler)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="2080" y="760" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-74" target="PuGdgSp_75TZ21ZuLs-3-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-74" value="MealItemForm" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="840" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-75" target="PuGdgSp_75TZ21ZuLs-3-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-75" value="set state amountIsValid to true" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="920" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-76" target="PuGdgSp_75TZ21ZuLs-3-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-76" value="amountInputRef using useRef&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="1000" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-77" target="PuGdgSp_75TZ21ZuLs-3-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-77" value="Renders form (props =&amp;gt; onSubmit = submitHandler), Input ref = amountInputRef, setup default values, button = +Add," style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="1080" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-83" target="PuGdgSp_75TZ21ZuLs-3-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-83" value="Input" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="1200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-84" value="React.forwardRef(props, ref) = passing the prop inout setup on MealItemform using ref to this component" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="1280" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
