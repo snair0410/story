@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T17:03:30.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="75mR00MY2DP8WenkNrdn" version="14.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-07T17:46:36.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="cWch-bIGFqdOuZ-R2-Jf" version="14.6.9" type="github" pages="4">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -887,8 +887,119 @@
         <mxCell id="PIpPFUhsM4shW8isTyeB-3" value="To Open" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
           <mxGeometry x="1320" y="200" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-4" target="PIpPFUhsM4shW8isTyeB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PIpPFUhsM4shW8isTyeB-4" value="Initial state set to false so will always be hidden&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
           <mxGeometry x="740" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-5" target="PIpPFUhsM4shW8isTyeB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-5" value="HeaderCartButton =&amp;gt; props = props.onClick" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-7" value="Button Clicked" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1080" y="270" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-8" target="PIpPFUhsM4shW8isTyeB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-8" value="Header =&amp;gt; props = props.onShowCart" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-10" target="PIpPFUhsM4shW8isTyeB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-10" value="App =&amp;gt; props = onShowCart = showCartHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="440" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-13" target="PIpPFUhsM4shW8isTyeB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-13" value="showCartHandler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1360" y="520" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-15" target="PIpPFUhsM4shW8isTyeB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-15" value="sets cartIsShown to true" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="640" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-17" target="PIpPFUhsM4shW8isTyeB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-17" target="ITcDwtYUn82hg-dvwkIS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-17" value="Render Modal =&amp;gt; props = onClose{props.onClose}, Cart =&amp;gt; props = onClose =&amp;nbsp; {hideCartHandler}" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="720" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="PIpPFUhsM4shW8isTyeB-18" target="ITcDwtYUn82hg-dvwkIS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIpPFUhsM4shW8isTyeB-18" value="Cart" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="800" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-0" target="ITcDwtYUn82hg-dvwkIS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-0" value="setup Context with createContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="880" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-1" target="ITcDwtYUn82hg-dvwkIS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-1" value="hasItems has value if items.length &amp;gt; 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="960" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-6" target="ITcDwtYUn82hg-dvwkIS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-6" value="Renders Button Close =&amp;gt; onClick = props.OnClose" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="1040" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-8" target="ITcDwtYUn82hg-dvwkIS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-8" value="hideCartHandler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1360" y="1120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-10" value="setCartIsShown to false - Cart will disappear" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1320" y="1240" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-11" target="ITcDwtYUn82hg-dvwkIS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-11" target="ITcDwtYUn82hg-dvwkIS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-11" value="Modal" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1840" y="720" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-13" target="ITcDwtYUn82hg-dvwkIS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-13" value="Backdrop" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1620" y="800" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-14" target="ITcDwtYUn82hg-dvwkIS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-14" value="ModalOverlay" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="2060" y="800" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NGTUquAo2EmUbg8JA0-j-1" source="ITcDwtYUn82hg-dvwkIS-15" target="ITcDwtYUn82hg-dvwkIS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-15" value="Renders Backdrop with onClose Prop" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1620" y="880" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-16" value="Renders Modal div with props.children" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="2060" y="880" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ITcDwtYUn82hg-dvwkIS-22" value="Ensures that when backdrop is pressed Modal closes" style="whiteSpace=wrap;html=1;" vertex="1" parent="NGTUquAo2EmUbg8JA0-j-1">
+          <mxGeometry x="1620" y="960" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
