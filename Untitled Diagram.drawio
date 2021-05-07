@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T17:52:09.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="nWxobbGELFrOZ9BPtlp3" version="14.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-07T18:18:23.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bDjzh_s3AjNxcoGauWq3" version="14.6.9" type="github" pages="5">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1009,6 +1009,72 @@
       <root>
         <mxCell id="PUMI33KsS2C7SFhIvsI2-0" />
         <mxCell id="PUMI33KsS2C7SFhIvsI2-1" parent="PUMI33KsS2C7SFhIvsI2-0" />
+        <mxCell id="0qB13fTIH5GdDtED4ym0-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="SaiQLMZkbUiEIc2uYEZW-0" target="SaiQLMZkbUiEIc2uYEZW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaiQLMZkbUiEIc2uYEZW-0" value="App Component (Clicking the Add Button)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="40" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="SaiQLMZkbUiEIc2uYEZW-1" target="2b5Ln5Be7vv2UxSTZ8nx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SaiQLMZkbUiEIc2uYEZW-1" value="MealItemForm =&amp;gt; props = onSubmit = {submitHandler}" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-0" target="2b5Ln5Be7vv2UxSTZ8nx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-0" value="submitHandler(event)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1060" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-2" target="2b5Ln5Be7vv2UxSTZ8nx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-2" value="prevent default action" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-3" target="2b5Ln5Be7vv2UxSTZ8nx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-3" value="enteredAmount = current value of amountInputRef (1)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="400" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-4" value="Assumption added 1 Sushi" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1260" y="50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-7" target="2b5Ln5Be7vv2UxSTZ8nx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-7" value="enteredAmountNumber = number rep. of enteredAmount" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="480" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-8" target="2b5Ln5Be7vv2UxSTZ8nx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-8" target="2b5Ln5Be7vv2UxSTZ8nx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-8" value="if enteredAmountNumber&lt;br&gt;&amp;nbsp;&amp;lt; 1 or &amp;gt; 5 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1045" y="560" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="2b5Ln5Be7vv2UxSTZ8nx-9" target="2b5Ln5Be7vv2UxSTZ8nx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-9" value="set amountIsValid to false" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1280" y="620" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-13" value="return&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1280" y="700" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-15" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1220" y="610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-16" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1100" y="740" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2b5Ln5Be7vv2UxSTZ8nx-17" value="return&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="1020" y="800" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
