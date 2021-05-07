@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T11:57:01.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="gJDA_pybWrtRKWl0abIb" version="14.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-07T01:47:37.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="2n3DH8xuN81Sh5rwCgy4" version="14.6.9" type="github" pages="3">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -602,6 +602,38 @@
         </mxCell>
         <mxCell id="DaV_Py6AJ7RIZ4JmA94z-120" value="&lt;span&gt;Display weather information on UI (END)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="ol5ok5B33NuZf5FcxZeR-1" vertex="1">
           <mxGeometry x="1790" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dxLcFMQv_-sjrsuYQ5yx" name="Page-3">
+    <mxGraphModel dx="1406" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-0" />
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-1" parent="PuGdgSp_75TZ21ZuLs-3-0" />
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-2" value="App Component (Starting State)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1020" y="40" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-3" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1020" y="120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-4" value="CartProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-5" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1020" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-6" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1480" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-7" value="set defaultCartState to empty array of items and totalAmount of 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-8" value="set cartReducer function (state, action)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-9" value="set cartReducer function (state, action)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="440" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
