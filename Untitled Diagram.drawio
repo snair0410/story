@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T01:47:37.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="2n3DH8xuN81Sh5rwCgy4" version="14.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-07T01:56:08.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ldnwzvpaUC_qsMkes0P3" version="14.6.9" type="github" pages="3">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -611,11 +611,17 @@
       <root>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-0" />
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-1" parent="PuGdgSp_75TZ21ZuLs-3-0" />
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-2" target="PuGdgSp_75TZ21ZuLs-3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-2" value="App Component (Starting State)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1020" y="40" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-3" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1020" y="120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-4" target="PuGdgSp_75TZ21ZuLs-3-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-4" value="CartProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="580" y="200" width="220" height="40" as="geometry" />
@@ -626,14 +632,56 @@
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-6" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1480" y="200" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-7" target="PuGdgSp_75TZ21ZuLs-3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-7" value="set defaultCartState to empty array of items and totalAmount of 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="580" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-8" target="PuGdgSp_75TZ21ZuLs-3-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-8" value="set cartReducer function (state, action)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="580" y="360" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PuGdgSp_75TZ21ZuLs-3-9" value="set cartReducer function (state, action)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-9" target="PuGdgSp_75TZ21ZuLs-3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-9" value="set Reducer function . Default state is defaultCartState and function is cartReducer" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="580" y="440" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-10" target="PuGdgSp_75TZ21ZuLs-3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-10" value="create object cartContext with items, totalAmount, addItem function and removeItem function" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="520" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-11" target="PuGdgSp_75TZ21ZuLs-3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-11" value="default items - empty array" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="380" y="510" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-13" target="PuGdgSp_75TZ21ZuLs-3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-13" value="default totalAmount - 0&amp;nbsp;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="390" y="540" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-14" target="PuGdgSp_75TZ21ZuLs-3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-14" value="Renders CartContext.Provider (props = cartContext)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-15" target="PuGdgSp_75TZ21ZuLs-3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-15" value="CartContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="680" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-16" value="setup Context with createContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="580" y="760" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
