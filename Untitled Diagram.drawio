@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T02:29:39.873Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="rsPD7cM8M_rvXFBPgnVm" version="14.6.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-07T02:40:02.322Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="BYevjTN3sTETWhRE0ZKF" version="14.6.9" type="github" pages="3">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -617,6 +617,9 @@
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-2" target="PuGdgSp_75TZ21ZuLs-3-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-2" target="PuGdgSp_75TZ21ZuLs-3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-2" value="App Component (Starting State)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1020" y="40" width="220" height="40" as="geometry" />
         </mxCell>
@@ -638,7 +641,13 @@
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-5" value="Header (props =&amp;gt; onShowCart = showCartHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1020" y="200" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PuGdgSp_75TZ21ZuLs-3-6" value="set state cartIsShown to false&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-6" target="PuGdgSp_75TZ21ZuLs-3-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-6" target="PuGdgSp_75TZ21ZuLs-3-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-6" value="Meals" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1480" y="200" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-7" target="PuGdgSp_75TZ21ZuLs-3-8">
@@ -689,6 +698,14 @@
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-15" target="PuGdgSp_75TZ21ZuLs-3-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-15" target="PuGdgSp_75TZ21ZuLs-3-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="710" />
+              <mxPoint x="1460" y="700" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-15" value="CartContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
@@ -753,6 +770,60 @@
         </mxCell>
         <mxCell id="PuGdgSp_75TZ21ZuLs-3-37" value="renders image for cartIcon&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
           <mxGeometry x="1020" y="1000" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-50" target="PuGdgSp_75TZ21ZuLs-3-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-50" value="MealsSummary" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1480" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-51" value="Renders H2, P, P (Text above the Meal Form" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1480" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-55" target="PuGdgSp_75TZ21ZuLs-3-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-55" value="AvailableMeals" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-57" target="PuGdgSp_75TZ21ZuLs-3-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-57" value="Create Dummy_Meals object with dummy data" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="360" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-58" target="PuGdgSp_75TZ21ZuLs-3-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-58" value="Create mealsList with map =&amp;gt; MealItem(name,description &amp;amp; price)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="440" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-59" target="PuGdgSp_75TZ21ZuLs-3-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-59" target="PuGdgSp_75TZ21ZuLs-3-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-59" value="Renders Card &amp;amp; mealsList(MealItem)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="520" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PuGdgSp_75TZ21ZuLs-3-1" source="PuGdgSp_75TZ21ZuLs-3-63" target="PuGdgSp_75TZ21ZuLs-3-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-63" value="Card" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-64" value="Simple Container with props.children&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="1800" y="680" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-67" value="MealItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="600" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-69" value="cartCtx useContext(CartContext)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="680" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuGdgSp_75TZ21ZuLs-3-71" value="Renders H3, Div, Div, MealItemForm (props =&amp;gt; onAddToCart = addToCartHandler)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PuGdgSp_75TZ21ZuLs-3-1">
+          <mxGeometry x="2080" y="760" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
