@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T18:45:11.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="KUZCu2vk7KE-aEEiljDt" version="14.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-05-08T02:07:03.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="RThA7zSUD6-YOPfEXsbJ" version="14.6.9" type="github" pages="6">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1093,6 +1093,9 @@
         <mxCell id="5LObtZmobLhnTzCdjtmV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="tIkT-bGy-MjineO-ETo5-3" target="5LObtZmobLhnTzCdjtmV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="tIkT-bGy-MjineO-ETo5-3" target="5LObtZmobLhnTzCdjtmV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tIkT-bGy-MjineO-ETo5-3" value="cartCtx.addItem = pass the entire object to the context. The props come from Available Meals" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
           <mxGeometry x="1020" y="1080" width="220" height="40" as="geometry" />
         </mxCell>
@@ -1105,9 +1108,41 @@
         <mxCell id="5LObtZmobLhnTzCdjtmV-3" value="Using Context" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
           <mxGeometry x="1245" y="1080" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5LObtZmobLhnTzCdjtmV-4" value="Reflect the amount in numberOfCartItems" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+        <mxCell id="5LObtZmobLhnTzCdjtmV-4" value="Reflect the amount in numberOfCartItems (1)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
           <mxGeometry x="1360" y="1160" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="5LObtZmobLhnTzCdjtmV-6" target="5LObtZmobLhnTzCdjtmV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-6" value="Cart" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="700" y="1080" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-8" value="Using Context" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="930" y="1080" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="5LObtZmobLhnTzCdjtmV-9" target="5LObtZmobLhnTzCdjtmV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-9" value="cartItems = map the items in the cart = CartItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="700" y="1160" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PUMI33KsS2C7SFhIvsI2-1" source="5LObtZmobLhnTzCdjtmV-10" target="5LObtZmobLhnTzCdjtmV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-10" value="CartItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="700" y="1240" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5LObtZmobLhnTzCdjtmV-11" value="display the items in the cart (full details of Sushi)" style="whiteSpace=wrap;html=1;" vertex="1" parent="PUMI33KsS2C7SFhIvsI2-1">
+          <mxGeometry x="700" y="1320" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fpnRK6rCAO3p03iDh1DI" name="FoodOrderApp - On Clicking the + &amp; - button">
+    <mxGraphModel dx="1406" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="jllPxzEVIkr-cPCoDKao-0" />
+        <mxCell id="jllPxzEVIkr-cPCoDKao-1" parent="jllPxzEVIkr-cPCoDKao-0" />
       </root>
     </mxGraphModel>
   </diagram>
