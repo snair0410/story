@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T02:05:03.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="xnjzzYq2t4t7AeuyPlpl" version="14.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-09T02:26:39.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-yEK8KzApFtW2aPx6A0P" version="14.6.9" type="github" pages="6">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1145,6 +1145,42 @@
         <mxCell id="jllPxzEVIkr-cPCoDKao-1" parent="jllPxzEVIkr-cPCoDKao-0" />
         <mxCell id="UcNtXznKuDsJ-CLW7--X-0" value="App Component (Clicking the + &amp;amp; - button)" style="whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
           <mxGeometry x="1020" y="40" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jllPxzEVIkr-cPCoDKao-1" source="UcNtXznKuDsJ-CLW7--X-1" target="UcNtXznKuDsJ-CLW7--X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcNtXznKuDsJ-CLW7--X-1" value="+ Button&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="700" y="120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jllPxzEVIkr-cPCoDKao-1" source="UcNtXznKuDsJ-CLW7--X-2" target="UcNtXznKuDsJ-CLW7--X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcNtXznKuDsJ-CLW7--X-2" value="props =&amp;gt; onClick = props.onAdd" style="whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="700" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jllPxzEVIkr-cPCoDKao-1" source="UcNtXznKuDsJ-CLW7--X-3" target="7IaWWiHIYwGOa2kedf3_-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcNtXznKuDsJ-CLW7--X-3" value="CartItem = onAdd =&amp;gt; cartItemAddHandler.bind(null, item)" style="whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="700" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jllPxzEVIkr-cPCoDKao-1" source="7IaWWiHIYwGOa2kedf3_-0" target="7IaWWiHIYwGOa2kedf3_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-0" value="cartItemAddHandler(item),&amp;nbsp;&lt;br&gt;cartCtx.addItem(passing&amp;nbsp;&lt;br&gt;entire item and&amp;nbsp;&lt;br&gt;amount: 1)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="695" y="360" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jllPxzEVIkr-cPCoDKao-1" source="7IaWWiHIYwGOa2kedf3_-4" target="7IaWWiHIYwGOa2kedf3_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-4" value="CartProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="700" y="480" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-5" value="addItemToCartHandler(item)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="695" y="560" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7IaWWiHIYwGOa2kedf3_-8" value="dispatchCartAction = cartReducer&lt;br&gt;(type: Add, item)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
+          <mxGeometry x="690" y="670" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
