@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T23:38:07.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="_szgFixfrroIOWnOiqLI" version="14.6.12" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-05-15T23:50:07.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="fb4aqtKu7M8bTsgLY9Fy" version="14.6.12" type="github" pages="9">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="946" dy="5295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1492,7 +1492,7 @@
         <mxCell id="G2xRak73S7sxdR310Sgu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NjeW2S020QPfea5VrZkR-1" source="fnJV54ndG5J45LVeGhfJ-0" target="nx9oc9i8x_4JI5KHrpLd-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fnJV54ndG5J45LVeGhfJ-0" value="addToCartHandler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NjeW2S020QPfea5VrZkR-1">
+        <mxCell id="fnJV54ndG5J45LVeGhfJ-0" value="addToCartHandler&lt;br&gt;(ProductItem)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="NjeW2S020QPfea5VrZkR-1">
           <mxGeometry x="2100" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="G2xRak73S7sxdR310Sgu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NjeW2S020QPfea5VrZkR-1" source="nx9oc9i8x_4JI5KHrpLd-0" target="XUiKbSxKacfeFHFGB76D-0">
@@ -1793,6 +1793,68 @@
         </mxCell>
         <mxCell id="G2xRak73S7sxdR310Sgu-18" value="Returns the card with all product information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NjeW2S020QPfea5VrZkR-1">
           <mxGeometry x="2020" y="2720" width="240" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4hHHm6BvtRkwIwlBwRAl" name="Shopping cart- redux - On clicking cart">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="o9Sn2KSYhP_sZ5uWFe6I-0" />
+        <mxCell id="o9Sn2KSYhP_sZ5uWFe6I-1" parent="o9Sn2KSYhP_sZ5uWFe6I-0" />
+        <mxCell id="TY_o6KGK3eAB4pDmyMnJ-0" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bwvLvalwsC-cb7yHwXNJ-0" value="toggleCartHandler&lt;br&gt;(CartButton)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2100" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RMmz1ffDQ6H8LK-Alq-M-0" value="dispatch(uiActions.&lt;br&gt;toggle)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2100" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NuhokQJy0_XTxjtof2-v-0" value="inverse cartIsVisible value(true)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="1680" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-2" target="iSMOH2TUKgHNpHcmDURh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-2" target="iSMOH2TUKgHNpHcmDURh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-2" value="set showCart using useSelector and setting it to state.ui.cartisvisible" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-4" target="iSMOH2TUKgHNpHcmDURh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-4" value="ui-slice = cartisVisible (true)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="1640" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.958;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-7" target="iSMOH2TUKgHNpHcmDURh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-7" target="iSMOH2TUKgHNpHcmDURh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-7" value="set cart using useSelector and setting it to state.cart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-9" target="iSMOH2TUKgHNpHcmDURh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-9" value="cart-slice = new state(new items array, totalQuantity is 1, changed is true)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="1640" y="440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-11" target="iSMOH2TUKgHNpHcmDURh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-11" value="set notification using useSelector and setting it to state.ui.notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="iSMOH2TUKgHNpHcmDURh-13" target="iSMOH2TUKgHNpHcmDURh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSMOH2TUKgHNpHcmDURh-13" value="ui-slice = notification (new data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="1640" y="520" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
