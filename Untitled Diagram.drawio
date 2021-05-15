@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T07:04:18.503Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="4QFQfCkZd0DYbJ_gJMtJ" version="14.6.12" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-15T07:14:43.320Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1TVzxqr6SYF0hDo_Z57Q" version="14.6.12" type="github" pages="7">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="946" dy="5295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1321,6 +1321,21 @@
         </mxCell>
         <mxCell id="FjEvdSK4X2Mpv6_OUeH--65" value="&amp;lt;CartButton&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
           <mxGeometry x="2480" y="1240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--67" value="set dispatch to useDispatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="2480" y="1321" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="FjEvdSK4X2Mpv6_OUeH--1" source="FjEvdSK4X2Mpv6_OUeH--68" target="FjEvdSK4X2Mpv6_OUeH--69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--68" value="set cartQuantity using useSelector to state.cart.totalQuantity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="2480" y="1400" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="FjEvdSK4X2Mpv6_OUeH--1" source="FjEvdSK4X2Mpv6_OUeH--69" target="FjEvdSK4X2Mpv6_OUeH--68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--69" value="cart-slice = state.cart.totalQuantity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="2840" y="1400" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
