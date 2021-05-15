@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T02:26:39.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-yEK8KzApFtW2aPx6A0P" version="14.6.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-15T05:10:04.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="QfFqshzx-nbTxR_LOyV3" version="14.6.12" type="github" pages="7">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
-    <mxGraphModel dx="1406" dy="5351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="5295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="LeUfFf-lmwy74hVoiopT-0" />
         <mxCell id="LeUfFf-lmwy74hVoiopT-1" parent="LeUfFf-lmwy74hVoiopT-0" />
@@ -1181,6 +1181,35 @@
         </mxCell>
         <mxCell id="7IaWWiHIYwGOa2kedf3_-8" value="dispatchCartAction = cartReducer&lt;br&gt;(type: Add, item)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jllPxzEVIkr-cPCoDKao-1">
           <mxGeometry x="690" y="670" width="230" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4Q5VfgQJLBH6sPd5omsi" name="Page-7">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--0" />
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--1" parent="FjEvdSK4X2Mpv6_OUeH--0" />
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--16" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="1740" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--17" value="" style="endArrow=none;html=1;" edge="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="1422" as="sourcePoint" />
+            <mxPoint x="1680" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--19" value="cart-slice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="1120" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--20" value="ui-slice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="1400" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--21" value="creatSlice from reduxtools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="1120" y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FjEvdSK4X2Mpv6_OUeH--22" value="createSlice" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="FjEvdSK4X2Mpv6_OUeH--1">
+          <mxGeometry x="1180" y="240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
