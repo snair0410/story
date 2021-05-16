@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-15T23:50:07.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="fb4aqtKu7M8bTsgLY9Fy" version="14.6.12" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-05-16T00:13:41.552Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="j4z6lK3EXlPWQIFKxjuY" version="14.6.12" type="github" pages="9">
   <diagram id="1u1pJkaoYDbLw7LvDNJL" name="Process 1 - 30 Minute">
     <mxGraphModel dx="946" dy="5295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1802,14 +1802,26 @@
       <root>
         <mxCell id="o9Sn2KSYhP_sZ5uWFe6I-0" />
         <mxCell id="o9Sn2KSYhP_sZ5uWFe6I-1" parent="o9Sn2KSYhP_sZ5uWFe6I-0" />
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="TY_o6KGK3eAB4pDmyMnJ-0" target="bwvLvalwsC-cb7yHwXNJ-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TY_o6KGK3eAB4pDmyMnJ-0" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
           <mxGeometry x="2040" y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="bwvLvalwsC-cb7yHwXNJ-0" target="RMmz1ffDQ6H8LK-Alq-M-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bwvLvalwsC-cb7yHwXNJ-0" value="toggleCartHandler&lt;br&gt;(CartButton)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
           <mxGeometry x="2100" y="120" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="RMmz1ffDQ6H8LK-Alq-M-0" target="NuhokQJy0_XTxjtof2-v-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RMmz1ffDQ6H8LK-Alq-M-0" value="dispatch(uiActions.&lt;br&gt;toggle)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
           <mxGeometry x="2100" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="NuhokQJy0_XTxjtof2-v-0" target="iSMOH2TUKgHNpHcmDURh-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NuhokQJy0_XTxjtof2-v-0" value="inverse cartIsVisible value(true)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
           <mxGeometry x="1680" y="260" width="240" height="40" as="geometry" />
@@ -1855,6 +1867,110 @@
         </mxCell>
         <mxCell id="iSMOH2TUKgHNpHcmDURh-13" value="ui-slice = notification (new data)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
           <mxGeometry x="1640" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-1" target="Cosi-KTRViOSD2Adsx4r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-1" value="return JSX" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2100" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-4" target="Cosi-KTRViOSD2Adsx4r-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-4" target="Cosi-KTRViOSD2Adsx4r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-4" value="if notification is true then display &amp;lt;Notification&amp;gt; with message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="720" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-7" target="Cosi-KTRViOSD2Adsx4r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2160" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-7" value="&amp;lt;Layout&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-10" target="Cosi-KTRViOSD2Adsx4r-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-10" target="Cosi-KTRViOSD2Adsx4r-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-10" value="if showCart is true then display &amp;lt;Cart&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="881" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-12" target="Cosi-KTRViOSD2Adsx4r-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-12" value="&amp;lt;Products&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-13" value="Notification (message)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2400" y="720" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-15" target="Cosi-KTRViOSD2Adsx4r-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-15" value="&amp;lt;MainHeader&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2400" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-16" value="&amp;lt;CartButton&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2760" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-18" target="Cosi-KTRViOSD2Adsx4r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-18" value="set dispatch to useDispatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2760" y="881" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-20" target="Cosi-KTRViOSD2Adsx4r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-20" value="set cartQuantity using useSelector to state.cart.totalQuantity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2760" y="960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-22" target="Cosi-KTRViOSD2Adsx4r-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-22" value="cart-slice = state.cart.totalQuantity(1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="3120" y="960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-24" target="Cosi-KTRViOSD2Adsx4r-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-24" target="Cosi-KTRViOSD2Adsx4r-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-24" value="Cart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2400" y="881" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-26" target="Cosi-KTRViOSD2Adsx4r-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-26" value="DUMMY_PRODUCTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="1040" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-28" target="Cosi-KTRViOSD2Adsx4r-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-28" value="H2 = But your fav products" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="1120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1" source="Cosi-KTRViOSD2Adsx4r-30" target="Cosi-KTRViOSD2Adsx4r-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-30" value="ul = DUMMY_PRODUCTS.map &amp;lt;ProductItem&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="1200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-31" value="set dispatch to useDispatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2040" y="1280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cosi-KTRViOSD2Adsx4r-32" value="CartItem(Display cart item)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o9Sn2KSYhP_sZ5uWFe6I-1">
+          <mxGeometry x="2400" y="960" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
