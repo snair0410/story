@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T06:26:30.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="4Mp7ZYSU7yY2h1fhC8p-" version="14.6.12" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:45:19.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="NNruBLj9SKKf2e0exYFb" version="14.6.12" type="github" pages="2">
   <diagram id="jmOzARPnvOpFAgRpLUe-" name="Lesson 1 - 4">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="Zn38Q3lzgTLnzNLuBiVa-1" value="Key Feature 2 - Simplified Routing.&lt;br&gt;1) In react js routing is a complicated topic.&amp;nbsp;&lt;br&gt;2) User has to download a package and then write code to achieve things like routing, dynamic routing and nested routing.&amp;nbsp;&lt;br&gt;3) In Next JS this is not necessary. we can create a folder structure alone with specified routing and that alone will help to perform routing without writing extra code." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="410" width="840" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="Zn38Q3lzgTLnzNLuBiVa-2" value="Key Feature 3 - Simplified Routing.&lt;br&gt;1) In react js routing is a complicated topic.&amp;nbsp;&lt;br&gt;2) User has to download a package and then write code to achieve things like routing, dynamic routing and nested routing.&amp;nbsp;&lt;br&gt;3) In Next JS this is not necessary. we can create a folder structure alone with specified routing and that alone will help to perform routing without writing extra code." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zn38Q3lzgTLnzNLuBiVa-2" value="Key Feature 3 - Fullstack framework&lt;br&gt;1) React is a predominantly front end client side development framework.&lt;br&gt;2) While using React projects we have to make sure that the back end is Node and the database is served through the NODE js rest API.&lt;br&gt;3) However NEXT solves this problem for us. While using NEXT we can blend in server side NODE js code into the front end and this helps us to work through one project, integrating both the front end and the back end" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="720" width="840" height="260" as="geometry" />
         </mxCell>
       </root>
