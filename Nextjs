@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T05:46:29.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.12" etag="ISCNHoft4ZI3ILPmJVB4" type="github"><diagram id="jmOzARPnvOpFAgRpLUe-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:26:30.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="4Mp7ZYSU7yY2h1fhC8p-" version="14.6.12" type="github" pages="2">
+  <diagram id="jmOzARPnvOpFAgRpLUe-" name="Lesson 1 - 4">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z19wWoIML4QPCTQ_kCz8-1" value="1) React framework for production. Full stack framework for ReactJS&lt;br&gt;2) clear rules and guidelines on how to structure our code so that they ready for production." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="30" width="840" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z19wWoIML4QPCTQ_kCz8-2" value="Key Feature 1 - Built in server-side rendering&lt;br&gt;1) Normal client side React apps only render a simple HTML element from the server on Loading.&amp;nbsp;&lt;br&gt;2) After loading the react app is then installed on the client browser from where the user can navigate and look at rendered data.&lt;br&gt;3) This means that for the first time the user might see a loading state and also this is not great for SEO. because the SEO crawlers can only see HTML content.&amp;nbsp;&lt;br&gt;4) There are ways around this by implementing specific packages/ libraries through REACT.&amp;nbsp;&lt;br&gt;5. However this is inefficient and not advisable.&amp;nbsp;&lt;br&gt;6. This is where NEXTJS can be useful. It helps in pre rendering all server side data so that the users dont have to see the loading state and also the web crawlers can pick up information straight away.&lt;br&gt;7)After the first load, everything else is handled by the react side code. To help in fast user experience" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="130" width="840" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Zn38Q3lzgTLnzNLuBiVa-1" value="Key Feature 2 - Simplified Routing.&lt;br&gt;1) In react js routing is a complicated topic.&amp;nbsp;&lt;br&gt;2) User has to download a package and then write code to achieve things like routing, dynamic routing and nested routing.&amp;nbsp;&lt;br&gt;3) In Next JS this is not necessary. we can create a folder structure alone with specified routing and that alone will help to perform routing without writing extra code." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="410" width="840" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Zn38Q3lzgTLnzNLuBiVa-2" value="Key Feature 3 - Simplified Routing.&lt;br&gt;1) In react js routing is a complicated topic.&amp;nbsp;&lt;br&gt;2) User has to download a package and then write code to achieve things like routing, dynamic routing and nested routing.&amp;nbsp;&lt;br&gt;3) In Next JS this is not necessary. we can create a folder structure alone with specified routing and that alone will help to perform routing without writing extra code." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="720" width="840" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kwprIsWyF4qIicG6Lafi" name="Lesson 3- Key Feature 2(Simplified Routing)">
+    <mxGraphModel dx="946" dy="5295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="G_h5FC7eXMKvEeGqqYIe-0" />
+        <mxCell id="G_h5FC7eXMKvEeGqqYIe-1" parent="G_h5FC7eXMKvEeGqqYIe-0" />
+        <mxCell id="jj68rRRn4kEhw4qHeU8p-0" value="Key Feature 2 - Simplified Routing.&lt;br&gt;1) In react js routing is a complicated topic.&amp;nbsp;&lt;br&gt;2) User has to download a package a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="G_h5FC7eXMKvEeGqqYIe-1">
+          <mxGeometry x="120" y="-2750" width="840" height="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
