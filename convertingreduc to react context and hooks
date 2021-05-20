@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T19:37:16.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="fAwuie5ilXahJNLuZ7y8" type="github"><diagram id="2EGWadn-Hf55rqW4a51T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-20T18:45:52.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="xqhv0iYJKc_n9eBMa4NA" version="14.6.13" type="github">
+  <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-1" value="Reasons for bringing in hooks&lt;br&gt;1) React does not offer a way to attach reusable behaviour to a component. Rendering props and higher order components can make it very cumbersome. Hence React was introduced. Hooks can be used to extract stateful logic from a component, hence helping us to test them independently and also test them so. Hooks allow us to reuse stateful logic without changing our component hierarchy.&lt;br&gt;2) Lifecycle components often started off as simple but soon became unmanageable in class based React. One lifecycle method might have logic to fetch data but might also have other unrelated logic for other functionality. All this made the code unreadable and long. Hooks solve this by getting getting together related code in a single function like subscription.&amp;nbsp;&lt;br&gt;3) The syntax issues with classes and how difficult it is with hot loading, means that functions allows an easy route to bring everyone on the same page. With hooks," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="40" width="600" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-2" value="What is a Hook?&lt;br&gt;1) Hooks are functions that let you hook into a react state.&lt;br&gt;2) The are in built react hooks and also custom hooks that can be built." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="400" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-3" value="In Built Hooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="520" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-4" value="useState Hook&lt;br&gt;const [state, setState] = useState(initialState)&lt;br&gt;1) Returns a stateful value and a function to update the state.&lt;br&gt;2) in the first render cycle state = initialState.&lt;br&gt;3) setState passes a new value to the state and queues up a render for the component.&amp;nbsp;&lt;br&gt;4) On every re-render the value of state keeps getting updated.&lt;br&gt;5) setState can be omitted from the dependency list of useCallback and useEffect hook.&lt;br&gt;6) if the new state is being computed from the previous state then you can pass a function to setState. This will take a previous value and&amp;nbsp;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="600" width="600" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
