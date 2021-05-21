@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T10:03:57.421Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GqbOuN38JDw-CeDgWJT9" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-21T12:23:47.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Lt2dXdOZDECtjHmz6oyf" version="14.6.13" type="github" pages="3">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -57,8 +57,19 @@
         <mxCell id="Zqq-FJYuPm-WH3abJ5Nk-2" value="Rules of Hooks&amp;nbsp;&lt;br&gt;1) Only call hooks at the top level of a functional component. Dont call them inside nested loops or functions.&lt;br&gt;2) Only call hooks from react functional components or custom hooks.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5CXFBZS4CTy7_WY4gtab-1">
           <mxGeometry x="1850" y="920" width="600" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Zqq-FJYuPm-WH3abJ5Nk-3" value="Building your own hooks (Custom Hooks)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5CXFBZS4CTy7_WY4gtab-1">
+        <mxCell id="Zqq-FJYuPm-WH3abJ5Nk-3" value="Building your own hooks (Custom Hooks)&lt;br&gt;1) If you want to share logic between 2 components, it is best to extract the logic and move it into a 3rd component.&lt;br&gt;2) a custom hook is a function starting with use and that can call other hooks.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5CXFBZS4CTy7_WY4gtab-1">
           <mxGeometry x="1850" y="1080" width="600" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B4p-b_ap4LsNveBSbt2q" name="React Native">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="qSQSGBNYrmstHUsahl47-0" />
+        <mxCell id="qSQSGBNYrmstHUsahl47-1" parent="qSQSGBNYrmstHUsahl47-0" />
+        <mxCell id="qSQSGBNYrmstHUsahl47-2" value="1) React Native is a collection of special React Components.&amp;nbsp;&lt;br&gt;2) These special components are compiled to native widgets&lt;br&gt;3) Gives you tools and API&#39;s to connect to native platform for functions.&lt;br&gt;4) Components are eventually compiled to real native widgets&amp;nbsp;&lt;br&gt;5) There are 2 approaches to getting started with RN. a) Expo/CLI tool. b) React Native CLI tool&lt;br&gt;6) EXPO is a 3rd party software. free of cost. It acts as a wrapper around the react native development. Allowing us to make RN coding easily, however we will miss some of the fine grain controls that come with RN.&amp;nbsp;&lt;br&gt;7) RN Native is exactly opposite of 6 providing a bare bones experience with RN.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qSQSGBNYrmstHUsahl47-1">
+          <mxGeometry x="120" y="40" width="800" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
