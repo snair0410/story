@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T07:26:12.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Zbph3jpVTzh9BYrqpQqe" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:33:22.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="B7EL3zZibbhxIKH3A6uw" version="14.6.13" type="github" pages="2">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -25,6 +25,23 @@
         <mxCell id="GhczyyjXAQHlem6Yvb-q-7" value="useReducer Hook.&lt;br&gt;1)&amp;nbsp; Is an alternative to useState.&lt;br&gt;2) is usually preferred to useState when there is complex state logic that involves multiple sub-values or current state heavily depends on previous state.&amp;nbsp;&lt;br&gt;3) This is the way useReducer is written :- const [state, dispatch] = useReducer(reducer, initialState)&lt;br&gt;4) There are 2 ways to initialise the initial state of useReducer. a) You can pass the initial state as the 2nd argument in useReducer call. b) The second option is to load the data lazily by passing a function and not as a 2nd argument. In this case you can pass the function name as the third argument. This function needs to be written outside the reducer function." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1960" y="1560" width="600" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-8" value="useCallback Hook.&lt;br&gt;1) Used when we want to optimize rendering of a certain component.&amp;nbsp;&lt;br&gt;2) useCallback will ensure that the component will only get updated when the dependency passed in the dependecies array changes value.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1770" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-9" value="useMemo Hook&lt;br&gt;1) Similar to useCallback but function/component will only be executed when the dependency changes. Again used majorly for optimization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="1920" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-10" value="useRef Hook&lt;br&gt;1) Returns a mutable value whose .current property can be used to pass a value imperatively to the child components. Its like a container that contains a mutable object.&lt;br&gt;2) It doesn&#39;t re-render the component when the object mutates.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2080" width="600" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1WkSBsbBTduvoP3YoFUs" name="useState hook">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="5CXFBZS4CTy7_WY4gtab-0" />
+        <mxCell id="5CXFBZS4CTy7_WY4gtab-1" parent="5CXFBZS4CTy7_WY4gtab-0" />
       </root>
     </mxGraphModel>
   </diagram>
