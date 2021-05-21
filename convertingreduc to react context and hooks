@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T09:33:22.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="B7EL3zZibbhxIKH3A6uw" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-21T09:43:42.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hpbCY4UnHIHECtvPa3HX" version="14.6.13" type="github" pages="2">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
       <root>
         <mxCell id="5CXFBZS4CTy7_WY4gtab-0" />
         <mxCell id="5CXFBZS4CTy7_WY4gtab-1" parent="5CXFBZS4CTy7_WY4gtab-0" />
+        <mxCell id="o0ydz2eAqKJD0Iv5YhS_-0" value="useState Hook&lt;br&gt;const [state, setState] = useState(initialState)&lt;br&gt;1) Returns a stateful value and a function to update the state.&lt;br&gt;2) in the first render cycle state = initialState.&lt;br&gt;3) setState passes a new value to the state and queues up a render for the component.&amp;nbsp;&lt;br&gt;4) On every re-render the value of state keeps getting updated.&lt;br&gt;5) setState can be omitted from the dependency list of useCallback and useEffect hook.&lt;br&gt;6) if the new state is being computed from the previous state then you can pass a function to setState. This will take a previous value of the state and provide a new state.&amp;nbsp;&lt;br&gt;eg) setCount(prevCount =&amp;gt; prevCount -1)&lt;br&gt;7) If the update function provides the same value as the previous state, then the re-render is skipped completely.&amp;nbsp;&lt;br&gt;8) If you pass a function to compute the initial state, then the function is called only once.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5CXFBZS4CTy7_WY4gtab-1">
+          <mxGeometry x="1850" y="270" width="600" height="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
