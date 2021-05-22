@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T15:52:15.857Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ysjs_gtAoLmVcwPez6TZ" version="14.7.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-05-22T15:52:32.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-othbBLy85rtcJytyGKY" version="14.7.0" type="github" pages="6">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XjipO4LBRBwPyvmAtIxh" name="Entire Data Flow or User Story">
+  <diagram id="XjipO4LBRBwPyvmAtIxh" name="Entire Data Flow or User Story for Web app">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="uBGcXDeh3iaylvsudiRn-0" />
