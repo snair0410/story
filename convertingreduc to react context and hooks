@@ -1,37 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T12:23:47.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Lt2dXdOZDECtjHmz6oyf" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-22T15:44:29.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QRkqbSMgHWwf3htATS05" version="14.7.0" type="github" pages="4">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-1" value="Reasons for bringing in hooks&lt;br&gt;1) React does not offer a way to attach reusable behaviour to a component. Rendering props and higher order components can make it very cumbersome. Hence React was introduced. Hooks can be used to extract stateful logic from a component, hence helping us to test them independently and also test them so. Hooks allow us to reuse stateful logic without changing our component hierarchy.&lt;br&gt;2) Lifecycle components often started off as simple but soon became unmanageable in class based React. One lifecycle method might have logic to fetch data but might also have other unrelated logic for other functionality. All this made the code unreadable and long. Hooks solve this by getting getting together related code in a single function like subscription.&amp;nbsp;&lt;br&gt;3) The syntax issues with classes and how difficult it is with hot loading, means that functions allows an easy route to bring everyone on the same page. With hooks," style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-1" value="Reasons for bringing in hooks&lt;br&gt;1) React does not offer a way to attach reusable behaviour to a component. Rendering props and higher order components can make it very cumbersome. Hence React was introduced. Hooks can be used to extract stateful logic from a component, hence helping us to test them independently and also test them so. Hooks allow us to reuse stateful logic without changing our component hierarchy.&lt;br&gt;2) Lifecycle components often started off as simple but soon became unmanageable in class based React. One lifecycle method might have logic to fetch data but might also have other unrelated logic for other functionality. All this made the code unreadable and long. Hooks solve this by getting getting together related code in a single function like subscription.&amp;nbsp;&lt;br&gt;3) The syntax issues with classes and how difficult it is with hot loading, means that functions allows an easy route to bring everyone on the same page. With hooks," style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="40" width="600" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-2" value="What is a Hook?&lt;br&gt;1) Hooks are functions that let you hook into a react state.&lt;br&gt;2) The are in built react hooks and also custom hooks that can be built." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-2" value="What is a Hook?&lt;br&gt;1) Hooks are functions that let you hook into a react state.&lt;br&gt;2) The are in built react hooks and also custom hooks that can be built." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="400" width="600" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-3" value="In Built Hooks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-3" value="In Built Hooks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="520" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-4" value="useState Hook&lt;br&gt;const [state, setState] = useState(initialState)&lt;br&gt;1) Returns a stateful value and a function to update the state.&lt;br&gt;2) in the first render cycle state = initialState.&lt;br&gt;3) setState passes a new value to the state and queues up a render for the component.&amp;nbsp;&lt;br&gt;4) On every re-render the value of state keeps getting updated.&lt;br&gt;5) setState can be omitted from the dependency list of useCallback and useEffect hook.&lt;br&gt;6) if the new state is being computed from the previous state then you can pass a function to setState. This will take a previous value of the state and provide a new state.&amp;nbsp;&lt;br&gt;eg) setCount(prevCount =&amp;gt; prevCount -1)&lt;br&gt;7) If the update function provides the same value as the previous state, then the re-render is skipped completely.&amp;nbsp;&lt;br&gt;8) If you pass a function to compute the initial state, then the function is called only once.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-4" value="useState Hook&lt;br&gt;const [state, setState] = useState(initialState)&lt;br&gt;1) Returns a stateful value and a function to update the state.&lt;br&gt;2) in the first render cycle state = initialState.&lt;br&gt;3) setState passes a new value to the state and queues up a render for the component.&amp;nbsp;&lt;br&gt;4) On every re-render the value of state keeps getting updated.&lt;br&gt;5) setState can be omitted from the dependency list of useCallback and useEffect hook.&lt;br&gt;6) if the new state is being computed from the previous state then you can pass a function to setState. This will take a previous value of the state and provide a new state.&amp;nbsp;&lt;br&gt;eg) setCount(prevCount =&amp;gt; prevCount -1)&lt;br&gt;7) If the update function provides the same value as the previous state, then the re-render is skipped completely.&amp;nbsp;&lt;br&gt;8) If you pass a function to compute the initial state, then the function is called only once.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="600" width="600" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-5" value="useEffect Hook&lt;br&gt;1) Accepts a function that contains imperative or effectual code.&amp;nbsp;&lt;br&gt;2) Fetch, counters, timers, subscriptions, timers etc are not allowed inside the main component function and are used inside this hook.&amp;nbsp;&lt;br&gt;3) useEffect will only run after the render cycle is complete, or you can choose to run them when a certain value changes.&amp;nbsp;&lt;br&gt;4) useEffect leaves behind resources on the screen that need to be cleaned up. They can be cleaned up by passing a return function inside the main useEffect function. The previous effect is cleaned up before executing the next render.&amp;nbsp;&lt;br&gt;5) useEffect will run after the browser has finished painting but before the next render cycle.&amp;nbsp;&lt;br&gt;6) To change the default behaviour of useEffect of running after every render cycle, we can control it by also passing dependencies to useEffect as the 2nd parameter. Now the useEffect will only run after the value of the dependency changes.&lt;br&gt;7) it is important to add every prop or state in this function to be passed as dependency to the useEffect function. If you pass an empty array as a dependency then useEffect is run only once&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-5" value="useEffect Hook&lt;br&gt;1) Accepts a function that contains imperative or effectual code.&amp;nbsp;&lt;br&gt;2) Fetch, counters, timers, subscriptions, timers etc are not allowed inside the main component function and are used inside this hook.&amp;nbsp;&lt;br&gt;3) useEffect will only run after the render cycle is complete, or you can choose to run them when a certain value changes.&amp;nbsp;&lt;br&gt;4) useEffect leaves behind resources on the screen that need to be cleaned up. They can be cleaned up by passing a return function inside the main useEffect function. The previous effect is cleaned up before executing the next render.&amp;nbsp;&lt;br&gt;5) useEffect will run after the browser has finished painting but before the next render cycle.&amp;nbsp;&lt;br&gt;6) To change the default behaviour of useEffect of running after every render cycle, we can control it by also passing dependencies to useEffect as the 2nd parameter. Now the useEffect will only run after the value of the dependency changes.&lt;br&gt;7) it is important to add every prop or state in this function to be passed as dependency to the useEffect function. If you pass an empty array as a dependency then useEffect is run only once&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;pre class=&quot;gatsby-code-jsx&quot; style=&quot;margin: 1rem ; padding: 0px ; box-sizing: inherit ; font-family: , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 20px ; word-break: break-word ; color: rgb(255 , 255 , 255) ; height: auto&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="920" width="600" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-6" value="useContext Hook&lt;br&gt;1) Useful in storing app wide state and props.&amp;nbsp;&lt;br&gt;2) We start this off by creating a separate context. Lets look at it with example code.&amp;nbsp;&lt;br&gt;3) First we have a an object called themes. This themes has two elements. a dark element and a light element.&amp;nbsp;&lt;br&gt;4) We then create the context like so :- const ThemeContext = React.createContext(themes.light). This creates ThemeContext and the initial value passed to this is the light element.&amp;nbsp;&lt;br&gt;5) The whole app component is now covered with ThemeContext.Provider&lt;br&gt;6) Now in any component we can use the useContext and access the context from there.&lt;br&gt;7) the current value of the context is determined by the value prop of the nearest &amp;lt;ThemeContext.Provider&amp;gt; in the component hierarchy/tree.&lt;br&gt;8) A component calling useContext will always render when the context value changes.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-6" value="useContext Hook&lt;br&gt;1) Useful in storing app wide state and props.&amp;nbsp;&lt;br&gt;2) We start this off by creating a separate context. Lets look at it with example code.&amp;nbsp;&lt;br&gt;3) First we have a an object called themes. This themes has two elements. a dark element and a light element.&amp;nbsp;&lt;br&gt;4) We then create the context like so :- const ThemeContext = React.createContext(themes.light). This creates ThemeContext and the initial value passed to this is the light element.&amp;nbsp;&lt;br&gt;5) The whole app component is now covered with ThemeContext.Provider&lt;br&gt;6) Now in any component we can use the useContext and access the context from there.&lt;br&gt;7) the current value of the context is determined by the value prop of the nearest &amp;lt;ThemeContext.Provider&amp;gt; in the component hierarchy/tree.&lt;br&gt;8) A component calling useContext will always render when the context value changes.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1240" width="600" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-7" value="useReducer Hook.&lt;br&gt;1)&amp;nbsp; Is an alternative to useState.&lt;br&gt;2) is usually preferred to useState when there is complex state logic that involves multiple sub-values or current state heavily depends on previous state.&amp;nbsp;&lt;br&gt;3) This is the way useReducer is written :- const [state, dispatch] = useReducer(reducer, initialState)&lt;br&gt;4) There are 2 ways to initialise the initial state of useReducer. a) You can pass the initial state as the 2nd argument in useReducer call. b) The second option is to load the data lazily by passing a function and not as a 2nd argument. In this case you can pass the function name as the third argument. This function needs to be written outside the reducer function." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-7" value="useReducer Hook.&lt;br&gt;1)&amp;nbsp; Is an alternative to useState.&lt;br&gt;2) is usually preferred to useState when there is complex state logic that involves multiple sub-values or current state heavily depends on previous state.&amp;nbsp;&lt;br&gt;3) This is the way useReducer is written :- const [state, dispatch] = useReducer(reducer, initialState)&lt;br&gt;4) There are 2 ways to initialise the initial state of useReducer. a) You can pass the initial state as the 2nd argument in useReducer call. b) The second option is to load the data lazily by passing a function and not as a 2nd argument. In this case you can pass the function name as the third argument. This function needs to be written outside the reducer function." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1560" width="600" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-8" value="useCallback Hook.&lt;br&gt;1) Used when we want to optimize rendering of a certain component.&amp;nbsp;&lt;br&gt;2) useCallback will ensure that the component will only get updated when the dependency passed in the dependecies array changes value.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-8" value="useCallback Hook.&lt;br&gt;1) Used when we want to optimize rendering of a certain component.&amp;nbsp;&lt;br&gt;2) useCallback will ensure that the component will only get updated when the dependency passed in the dependecies array changes value.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1770" width="600" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-9" value="useMemo Hook&lt;br&gt;1) Similar to useCallback but function/component will only be executed when the dependency changes. Again used majorly for optimization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-9" value="useMemo Hook&lt;br&gt;1) Similar to useCallback but function/component will only be executed when the dependency changes. Again used majorly for optimization" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1920" width="600" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GhczyyjXAQHlem6Yvb-q-10" value="useRef Hook&lt;br&gt;1) Returns a mutable value whose .current property can be used to pass a value imperatively to the child components. Its like a container that contains a mutable object.&lt;br&gt;2) It doesn&#39;t re-render the component when the object mutates.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GhczyyjXAQHlem6Yvb-q-10" value="useRef Hook&lt;br&gt;1) Returns a mutable value whose .current property can be used to pass a value imperatively to the child components. Its like a container that contains a mutable object.&lt;br&gt;2) It doesn&#39;t re-render the component when the object mutates.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1960" y="2080" width="600" height="100" as="geometry" />
         </mxCell>
       </root>
@@ -68,8 +68,109 @@
       <root>
         <mxCell id="qSQSGBNYrmstHUsahl47-0" />
         <mxCell id="qSQSGBNYrmstHUsahl47-1" parent="qSQSGBNYrmstHUsahl47-0" />
-        <mxCell id="qSQSGBNYrmstHUsahl47-2" value="1) React Native is a collection of special React Components.&amp;nbsp;&lt;br&gt;2) These special components are compiled to native widgets&lt;br&gt;3) Gives you tools and API&#39;s to connect to native platform for functions.&lt;br&gt;4) Components are eventually compiled to real native widgets&amp;nbsp;&lt;br&gt;5) There are 2 approaches to getting started with RN. a) Expo/CLI tool. b) React Native CLI tool&lt;br&gt;6) EXPO is a 3rd party software. free of cost. It acts as a wrapper around the react native development. Allowing us to make RN coding easily, however we will miss some of the fine grain controls that come with RN.&amp;nbsp;&lt;br&gt;7) RN Native is exactly opposite of 6 providing a bare bones experience with RN.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qSQSGBNYrmstHUsahl47-1">
+        <mxCell id="qSQSGBNYrmstHUsahl47-2" value="1) React Native is a collection of special React Components.&amp;nbsp;&lt;br&gt;2) These special components are compiled to native widgets&lt;br&gt;3) Gives you tools and API&#39;s to connect to native platform for functions.&lt;br&gt;4) Components are eventually compiled to real native widgets&amp;nbsp;&lt;br&gt;5) There are 2 approaches to getting started with RN. a) Expo/CLI tool. b) React Native CLI tool&lt;br&gt;6) EXPO is a 3rd party software. free of cost. It acts as a wrapper around the react native development. Allowing us to make RN coding easily, however we will miss some of the fine grain controls that come with RN.&amp;nbsp;&lt;br&gt;7) RN Native is exactly opposite of 6 providing a bare bones experience with RN.&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="qSQSGBNYrmstHUsahl47-1" vertex="1">
           <mxGeometry x="120" y="40" width="800" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8v3KXbA1g8ZuMc6PPLXH" name="Page-4">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-0" />
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-1" parent="2FfaEvTrzXeabOzF-QLm-0" />
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-2" target="2FfaEvTrzXeabOzF-QLm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-2" value="Player / Member" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1480" y="715" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-3" target="2FfaEvTrzXeabOzF-QLm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-3" value="Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1760" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-5" target="2FfaEvTrzXeabOzF-QLm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-5" value="Challenge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1760" y="565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-6" target="2FfaEvTrzXeabOzF-QLm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2FfaEvTrzXeabOzF-QLm-1" source="2FfaEvTrzXeabOzF-QLm-6" target="2FfaEvTrzXeabOzF-QLm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-6" value="Tournament" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1760" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-7" value="Static Pages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2200" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-8" value="Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2200" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-9" value="Peer Stats" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2200" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-10" value="Blog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2200" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-11" value="Social Media" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2200" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-12" value="Authenticates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1580" y="775" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-20" value="start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1770" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-21" value="in" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1770" y="820" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-22" value="Schedule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1640" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-24" value="Challenge Player" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1640" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-26" value="see" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2090" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-27" value="see" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2050" y="510" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-28" value="see" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2100" y="725" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-29" value="Write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2090" y="830" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-30" value="Write" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="2070" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2FfaEvTrzXeabOzF-QLm-31" value="Matchday Live Chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2FfaEvTrzXeabOzF-QLm-1">
+          <mxGeometry x="1780" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
