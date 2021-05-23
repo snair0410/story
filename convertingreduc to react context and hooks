@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T09:39:33.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="tCWnxI67tBHjQsaUKqqU" version="14.7.0" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2021-05-23T09:56:24.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="m6Xlk5JZddGeh6YmtzTL" version="14.7.0" type="github" pages="24">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2060,7 +2060,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ldL65yDVfJNtAnMscbgf" name="Page-23">
+  <diagram id="ldL65yDVfJNtAnMscbgf" name="Tournament Centre Design-View Weekend Schedule- Member &amp; Guest">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="7Pf2ZPNAFw7rbzvEYAPV-0" />
@@ -2101,8 +2101,22 @@
         <mxCell id="7ywEJC_mxTPH9kbf6gCH-10" value="Drop Down (Display with Current and all past editions)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7Pf2ZPNAFw7rbzvEYAPV-1">
           <mxGeometry x="440" y="240" width="600" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7ywEJC_mxTPH9kbf6gCH-11" value="Display Data - as per selection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7Pf2ZPNAFw7rbzvEYAPV-1">
-          <mxGeometry x="440" y="360" width="600" height="380" as="geometry" />
+        <mxCell id="tD4F4zdIDpmxiihvOass-0" value="Insert a table with following fields 1) Player 1 2) Player 2, 3) Day 4) Time&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Pf2ZPNAFw7rbzvEYAPV-1">
+          <mxGeometry x="440" y="340" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tD4F4zdIDpmxiihvOass-1" value="Live Scores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="7Pf2ZPNAFw7rbzvEYAPV-1">
+          <mxGeometry x="695" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wdR7azESK6WNty5rGfI3" name="Tournament Centre Design-Live Chat- Member &amp; Guest">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="8DYPKIpxjM47F7dLPiCz-0" />
+        <mxCell id="8DYPKIpxjM47F7dLPiCz-1" parent="8DYPKIpxjM47F7dLPiCz-0" />
+        <mxCell id="ZPBmGp3RSj3rgCcbAZOh-0" value="Design to be finalised later&lt;br&gt;Questions - is there a need to save the chat in the back end ? can we just use front end tech to write the scores and then exit. like whatsapp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8DYPKIpxjM47F7dLPiCz-1">
+          <mxGeometry x="200" y="120" width="560" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
