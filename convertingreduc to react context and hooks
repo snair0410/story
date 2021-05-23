@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T11:46:13.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EVRG_RshrE3wvW5H7vYa" version="14.7.0" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-05-23T13:48:54.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QatxB0S0h9mGrQlGEdR5" version="14.7.0" type="github" pages="25">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2204,23 +2204,50 @@
         <mxCell id="4pGxHhhNu99xLms6YpIn-10" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
           <mxGeometry x="920" y="70" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4pGxHhhNu99xLms6YpIn-11" value="To be displayed on Friday" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
-          <mxGeometry x="840" y="140" width="130" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="2o6UtRXDmaTVobgWD6CF-0" value="Notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
           <mxGeometry x="840" y="70" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4pGxHhhNu99xLms6YpIn-12" value="Back to Tournament Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-1">
-          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="30" y="360" width="640" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="4pGxHhhNu99xLms6YpIn-13" value="Drop Down (Display with Current and all past editions)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-1">
-          <mxGeometry x="440" y="240" width="600" height="60" as="geometry" />
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-1" value="Ranking (Displays 20 rankings above individual)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="255" y="380" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4pGxHhhNu99xLms6YpIn-14" value="Insert a table with following fields 1) Player 1 2) Player 2, 3) Day 4) Time&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-1">
-          <mxGeometry x="440" y="340" width="600" height="280" as="geometry" />
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="55" y="430" width="200" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="4pGxHhhNu99xLms6YpIn-15" value="Live Scores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-1">
-          <mxGeometry x="695" y="500" width="120" height="40" as="geometry" />
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-3" value="Pic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="95" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-4" value="Name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="95" y="507" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-5" value="Rank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="95" y="550" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4pGxHhhNu99xLms6YpIn-12" value="Back to Challenge Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-8" value="Challenger Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="359" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-9" value="Challenger Scoring System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-10" value="Challenger Month is&amp;nbsp;&lt;br&gt;Number of Days left for month close&lt;br&gt;Total Challenge Matches played so far&lt;br&gt;Total Challenge Matches Won&lt;br&gt;Total Challenge Matches Lost.&amp;nbsp;&lt;br&gt;Maximum challenge matches played by -" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="720" y="120" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-11" value="Challenger Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="359" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-12" value="Challenge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="95" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-13" value="Challenge button clickable based on conditions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="100" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M0fhzRjHrUmQfZkVx1wy-14" value="1) Player has been challenged before by same player in month&lt;br&gt;2) Player has exhausted 4 of his challenge matches. (including scheduled matches)&lt;br&gt;Then make it disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
+          <mxGeometry x="340" y="540" width="120" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
