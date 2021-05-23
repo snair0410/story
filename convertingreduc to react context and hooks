@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T08:36:56.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ESq-Cts7pLSqFTokdZi0" version="14.7.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-05-23T08:52:01.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aV_rXrzBOOVrvhDzdPm1" version="14.7.0" type="github" pages="16">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1450,13 +1450,16 @@
           <mxGeometry x="820" y="860" width="120" height="315" as="geometry" />
         </mxCell>
         <mxCell id="gYTvm805p1R828RLW4rx-0" value="1) for 1 - view team information.&amp;nbsp;&lt;br&gt;2) for 2 - make button disabled.&amp;nbsp;&lt;br&gt;3) for 3 - view team information.&lt;br&gt;4) make button diabled.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="230" y="1200" width="120" height="315" as="geometry" />
+          <mxGeometry x="90" y="1200" width="120" height="315" as="geometry" />
         </mxCell>
         <mxCell id="gYTvm805p1R828RLW4rx-1" value="1) for 1 - view tournament teams.&amp;nbsp;&lt;br&gt;2) for 2 - view tournament teams.&amp;nbsp;&lt;br&gt;3) for 3 - view tournament teams&lt;br&gt;4) for 4 -&amp;nbsp;&amp;nbsp;view tournament teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="460" y="1205" width="120" height="315" as="geometry" />
+          <mxGeometry x="330" y="1200" width="120" height="315" as="geometry" />
         </mxCell>
         <mxCell id="gYTvm805p1R828RLW4rx-2" value="1) for 1 - View Gallery.&amp;nbsp;&lt;br&gt;2) for 2 - View Gallery.&amp;nbsp;&lt;br&gt;3) for 3 - View Gallery.&amp;nbsp;&lt;br&gt;4) for 4 - View Gallery.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="710" y="1205" width="120" height="315" as="geometry" />
+          <mxGeometry x="585" y="1200" width="120" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="zu--1ylqc5gFxVGDeaKN-0" value="1) for 1 - More Tournament Analytics&lt;br&gt;2) for 2 - More Tournament Analytics&amp;nbsp;&lt;br&gt;3) for 3 - More Tournament Analytics&lt;br&gt;4) for 4 - More Tournament Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="820" y="1200" width="120" height="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1505,7 +1508,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6XUJ4Vd-ub_zpct1yMar" name="Tournament Centre Design- Full Tournament Match Summary - Member &amp; Guest">
+  <diagram id="6XUJ4Vd-ub_zpct1yMar" name="Tournament Centre Design- Full Tournament Match Summary - Head to Head- Member &amp; Guest">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="55IcJCoGYLKFL1S3Ww0B-0" />
@@ -1562,6 +1565,118 @@
           <mxGeometry x="910" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4nVayPYe-F5uHNwJ1aa5-5" value="Scoreline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55IcJCoGYLKFL1S3Ww0B-1">
+          <mxGeometry x="685" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bZBg-UVf4W2UAEUTE3kl" name="Tournament Centre Design- View your Record - Member &amp; Guest">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="XNC9V81iV7EwIF_lcA52-0" />
+        <mxCell id="XNC9V81iV7EwIF_lcA52-1" parent="XNC9V81iV7EwIF_lcA52-0" />
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-0" value="Vertical Container" style="swimlane;" vertex="1" parent="XNC9V81iV7EwIF_lcA52-1">
+          <mxGeometry x="240" y="120" width="1030" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry y="40" width="1030" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-2" value="Hi Sandeep Nair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="220" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-3" value="Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="20" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-4" value="Rank up/down number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="420" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-5" value="Rank Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="580" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-6" value="PDR Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="700" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-7" value="Points Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="810" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-8" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="920" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-9" value="Drop Down (Display with Current and all past editions.&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="200" y="120" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-10" value="Insert a table with following fields 1) GSM match number 2) WP, 3) LP, 4) scoreline 5)&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Write%20%2F%20View%20Blogs%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23ffe6cc%3BstrokeColor%3D%23d79b00%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22630%22%20y%3D%221120%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="200" y="220" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-11" value="Head to Head" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="455" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0CqbjVx8VYvScaA5Tcua-12" value="Summary Card&lt;br&gt;Player&lt;br&gt;Won&lt;br&gt;Lost&lt;br&gt;Points" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0CqbjVx8VYvScaA5Tcua-0">
+          <mxGeometry x="840" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="29QwuUV6STm_XHE4GeJ5" name="Tournament Centre Design- View your Record - Head to Head- Member &amp; Guest">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="kUaNJAgQSWNRnS9toEav-0" />
+        <mxCell id="kUaNJAgQSWNRnS9toEav-1" parent="kUaNJAgQSWNRnS9toEav-0" />
+        <mxCell id="evGwabZMjvGBjfnhciHO-0" value="Vertical Container" style="swimlane;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="240" y="120" width="1030" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry y="40" width="1030" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-2" value="Hi Sandeep Nair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="220" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-3" value="Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="20" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-4" value="Rank up/down number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="420" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-5" value="Rank Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="580" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-6" value="PDR Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="700" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-7" value="Points Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="810" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-8" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="920" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-9" value="Drop Down (Display with Current and all past editions.&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="200" y="120" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-10" value="Insert a table with following fields 1) GSM match number 2) WP, 3) LP, 4) scoreline 5)&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Write%20%2F%20View%20Blogs%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23ffe6cc%3BstrokeColor%3D%23d79b00%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22630%22%20y%3D%221120%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="200" y="220" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-11" value="Head to Head" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="455" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="evGwabZMjvGBjfnhciHO-12" value="Summary Card&lt;br&gt;Player&lt;br&gt;Won&lt;br&gt;Lost&lt;br&gt;Points" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="evGwabZMjvGBjfnhciHO-0">
+          <mxGeometry x="840" y="120" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="340" y="830" width="800" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-1" value="Modal Overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="620" y="840" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-2" value="Number of matches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="685" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-3" value="Player 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="460" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-4" value="Player 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="910" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4s8qVsVkHBT3BFa8jeO-5" value="Scoreline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
           <mxGeometry x="685" y="980" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
