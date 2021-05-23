@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T02:51:19.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NGyNG1qGb-WbzJ2M78-w" version="14.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-23T02:53:54.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6ilgvl5C6Xe8o9DJB5Li" version="14.7.0" type="github" pages="7">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -402,7 +402,7 @@
           <mxGeometry x="30" y="150" width="240" height="250" as="geometry" />
         </mxCell>
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-9" value="Online Members" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
-          <mxGeometry x="10" y="450" width="200" height="250" as="geometry" />
+          <mxGeometry x="10" y="520" width="200" height="250" as="geometry" />
         </mxCell>
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-10" value="Name and Nick Name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="450" y="120" width="120" height="30" as="geometry" />
@@ -424,6 +424,18 @@
         </mxCell>
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-18" value="Change P Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="760" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+          <mxGeometry x="275" y="520" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-20" value="Tournament Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+          <mxGeometry x="300" y="460" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-21" value="Conditional output depending on T Flag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+          <mxGeometry x="315" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-22" value="Tournament Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+          <mxGeometry x="300" y="530" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
