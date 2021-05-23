@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T07:47:42.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="L9XT47q5HCV92Aw4fA8S" version="14.7.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-05-23T07:54:00.550Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bDhlYxP6n_9OErf_0ESd" version="14.7.0" type="github" pages="13">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1448,6 +1448,12 @@
         </mxCell>
         <mxCell id="QzIOGH5muQ9fat06fS6H-3" value="1) for 1 - Enter Slots for Weekend&lt;br&gt;2) for 2 - make button disabled.&lt;br&gt;3) for 3 - make button disabled.&amp;nbsp;&lt;br&gt;4) for 4 - make button disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="810" y="785" width="120" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="gYTvm805p1R828RLW4rx-0" value="1) for 1 - view team information.&amp;nbsp;&lt;br&gt;2) for 2 - make button disabled.&amp;nbsp;&lt;br&gt;3) for 3 - make button disabled.&amp;nbsp;&lt;br&gt;4) make button diabled.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="80" y="1140" width="120" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="gYTvm805p1R828RLW4rx-1" value="1) for 1 - view tournament teams.&amp;nbsp;&lt;br&gt;2) for 2 - view tournament teams.&amp;nbsp;&lt;br&gt;3) for 3 - make button disabled.&amp;nbsp;&lt;br&gt;4) for 4 - make button disabled&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="320" y="1140" width="120" height="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
