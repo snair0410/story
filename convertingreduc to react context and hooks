@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T07:15:32.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="d6JRXE4Aws1v8_oNIol1" version="14.7.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-05-23T07:35:08.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0Ve913d12b7qYGv4k_dX" version="14.7.0" type="github" pages="13">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1401,7 +1401,7 @@
         <mxCell id="JOrqGwb5oEIPBqW84mnf-57" value="For 1 &amp;amp; 2 display below&lt;br&gt;For 3 and 4 no display of label&lt;br&gt;&lt;br&gt;Format -&amp;nbsp;&lt;br&gt;Date -&lt;br&gt;Number of Teams&lt;br&gt;Number of Players" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="860" y="265" width="160" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="JOrqGwb5oEIPBqW84mnf-58" value="1) For 1 -&amp;nbsp; Tournament Table&lt;br&gt;2) For 2 - Tournament Table&lt;br&gt;3) no Label.&lt;br&gt;4) No tournament in progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+        <mxCell id="JOrqGwb5oEIPBqW84mnf-58" value="1) For 1 -&amp;nbsp; Tournament Table&lt;br&gt;2) For 2 - Tournament Table&lt;br&gt;3) Display the value come from drop down.&lt;br&gt;4) Display the value come from drop down" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="45" y="420" width="960" height="320" as="geometry" />
         </mxCell>
         <mxCell id="QzIOGH5muQ9fat06fS6H-0" value="Full Tournament Match Summary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
