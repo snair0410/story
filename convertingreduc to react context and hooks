@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T13:48:54.993Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QatxB0S0h9mGrQlGEdR5" version="14.7.0" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-05-23T22:57:11.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="IUb_IyQ2lLtl6RA9TnSy" version="14.7.0" type="github" pages="26">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1583,7 +1583,7 @@
           <mxGeometry x="820" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4nVayPYe-F5uHNwJ1aa5-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55IcJCoGYLKFL1S3Ww0B-1">
-          <mxGeometry x="340" y="830" width="800" height="240" as="geometry" />
+          <mxGeometry x="340" y="830" width="800" height="290" as="geometry" />
         </mxCell>
         <mxCell id="4nVayPYe-F5uHNwJ1aa5-1" value="Modal Overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55IcJCoGYLKFL1S3Ww0B-1">
           <mxGeometry x="620" y="840" width="240" height="30" as="geometry" />
@@ -1602,6 +1602,9 @@
         </mxCell>
         <mxCell id="cgXSoyCceInziJwDNo17-0" value="Back to Tournament Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="55IcJCoGYLKFL1S3Ww0B-1">
           <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BxKjESx8QjnpNtr2uOop-0" value="Close" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="55IcJCoGYLKFL1S3Ww0B-1">
+          <mxGeometry x="685" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1707,7 +1710,7 @@
           <mxGeometry x="850" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I4s8qVsVkHBT3BFa8jeO-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
-          <mxGeometry x="340" y="830" width="800" height="240" as="geometry" />
+          <mxGeometry x="340" y="830" width="800" height="330" as="geometry" />
         </mxCell>
         <mxCell id="I4s8qVsVkHBT3BFa8jeO-1" value="Modal Overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
           <mxGeometry x="620" y="840" width="240" height="30" as="geometry" />
@@ -1726,6 +1729,9 @@
         </mxCell>
         <mxCell id="aPX4qE4aKiP9QNQ6DrIK-0" value="Back to Tournament Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
           <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qvv7Ba1ABLX5LbpILSGh-0" value="Close" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="kUaNJAgQSWNRnS9toEav-1">
+          <mxGeometry x="685" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2248,6 +2254,98 @@
         </mxCell>
         <mxCell id="M0fhzRjHrUmQfZkVx1wy-14" value="1) Player has been challenged before by same player in month&lt;br&gt;2) Player has exhausted 4 of his challenge matches. (including scheduled matches)&lt;br&gt;Then make it disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="4pGxHhhNu99xLms6YpIn-2">
           <mxGeometry x="340" y="540" width="120" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mdB027NqNbuyhm0P8rrC" name="Challenge Rules- Member &amp; Guest">
+    <mxGraphModel dx="1186" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="7UsIFmJHutBCl1bBOAoA-0" />
+        <mxCell id="7UsIFmJHutBCl1bBOAoA-1" parent="7UsIFmJHutBCl1bBOAoA-0" />
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-0" value="Vertical Container" style="swimlane;" vertex="1" parent="7UsIFmJHutBCl1bBOAoA-1">
+          <mxGeometry x="240" y="120" width="1030" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry y="40" width="1030" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-2" value="Hi Sandeep Nair" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="220" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-3" value="Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="20" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-4" value="Rank up/down number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="345" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-5" value="Rank Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="505" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-6" value="PDR Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="625" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-7" value="Points Number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="730" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-8" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="920" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-9" value="Notifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="840" y="70" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="30" y="360" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-11" value="Ranking (Displays 20 rankings above individual)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="255" y="380" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="55" y="430" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-13" value="Pic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="95" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-14" value="Name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="95" y="507" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-15" value="Rank" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="95" y="550" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-16" value="Back to Challenge Centre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-17" value="Challenger Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="359" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-18" value="Challenger Scoring System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-19" value="Challenger Month is&amp;nbsp;&lt;br&gt;Number of Days left for month close&lt;br&gt;Total Challenge Matches played so far&lt;br&gt;Total Challenge Matches Won&lt;br&gt;Total Challenge Matches Lost.&amp;nbsp;&lt;br&gt;Maximum challenge matches played by -" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="720" y="120" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-20" value="Challenger Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4C3;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="359" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-21" value="Challenge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="95" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-22" value="Challenge button clickable based on conditions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="100" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3O9vJYj3kBwz-RfDNFsd-23" value="1) Player has been challenged before by same player in month&lt;br&gt;2) Player has exhausted 4 of his challenge matches. (including scheduled matches)&lt;br&gt;Then make it disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="3O9vJYj3kBwz-RfDNFsd-0">
+          <mxGeometry x="340" y="540" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PkeIzbWvoKwW9eqN57XJ-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7UsIFmJHutBCl1bBOAoA-1">
+          <mxGeometry x="380" y="920" width="800" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PkeIzbWvoKwW9eqN57XJ-1" value="Modal Overlay" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7UsIFmJHutBCl1bBOAoA-1">
+          <mxGeometry x="660" y="930" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkeIzbWvoKwW9eqN57XJ-2" value="Rules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7UsIFmJHutBCl1bBOAoA-1">
+          <mxGeometry x="725" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d32PoK1D1Hib2fK6Bi3n-0" value="Close" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7UsIFmJHutBCl1bBOAoA-1">
+          <mxGeometry x="725" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
