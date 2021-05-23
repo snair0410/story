@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T07:35:08.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0Ve913d12b7qYGv4k_dX" version="14.7.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-05-23T07:47:42.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="L9XT47q5HCV92Aw4fA8S" version="14.7.0" type="github" pages="13">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1404,29 +1404,8 @@
         <mxCell id="JOrqGwb5oEIPBqW84mnf-58" value="1) For 1 -&amp;nbsp; Tournament Table&lt;br&gt;2) For 2 - Tournament Table&lt;br&gt;3) Display the value come from drop down.&lt;br&gt;4) Display the value come from drop down" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="45" y="420" width="960" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="QzIOGH5muQ9fat06fS6H-0" value="Full Tournament Match Summary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="80" y="785" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QzIOGH5muQ9fat06fS6H-1" value="View Your Record&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="280" y="785" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QzIOGH5muQ9fat06fS6H-2" value="Your Videos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="480" y="785" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QzIOGH5muQ9fat06fS6H-4" value="Conditional Output based on Format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="80" y="905" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u3U0Po83MdYGfSXn2QBe-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="40" y="995" width="200" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="u3U0Po83MdYGfSXn2QBe-2" value="View Teams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="80" y="1045" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u3U0Po83MdYGfSXn2QBe-3" value="Or" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="120" y="1105" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u3U0Po83MdYGfSXn2QBe-4" value="View Groups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
-          <mxGeometry x="80" y="1165" width="120" height="40" as="geometry" />
+        <mxCell id="QzIOGH5muQ9fat06fS6H-0" value="1) for 1 - Full Tournament Match Summary&lt;br&gt;2) For 2 - Full Tournament Match Summary&lt;br&gt;3) For 3 - Full Tournament Match Summary&lt;br&gt;4) For 4 - Full Tournament Match Summary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="80" y="785" width="120" height="315" as="geometry" />
         </mxCell>
         <mxCell id="MMI7HFqwqqqpNnEWtefy-0" value="To this page from either Tournament centre or previous tournament centre. For either guest/ Member" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="230" y="110" width="570" height="20" as="geometry" />
@@ -1461,8 +1440,14 @@
         <mxCell id="x478tknSPx4Xmh_ftHYx-9" value="Drop down 1) For 1 - no display, 2) For 2 - no display. 3) For 3 - Display with past edition. 4) For 4 - Display with past edition." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
           <mxGeometry x="240" y="270" width="600" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QzIOGH5muQ9fat06fS6H-3" value="Enter Slots for Weekend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="kSQ3gHvDXwhQBoJVL5I0-1">
-          <mxGeometry x="880" y="885" width="120" height="60" as="geometry" />
+        <mxCell id="QzIOGH5muQ9fat06fS6H-1" value="1) For 1 - View Your Record&amp;nbsp;&lt;br&gt;2) For 2 - View Your Record .&lt;br&gt;3) For 3 - View Your Record&amp;nbsp;&lt;br&gt;4) For 4 - View Your Record&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="320" y="785" width="120" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="QzIOGH5muQ9fat06fS6H-2" value="1) For 1 - View Your Videos&lt;br&gt;2) For 2 - View Your Videos .&lt;br&gt;3) For 3 - View Your Videos&amp;nbsp;&lt;br&gt;4) For 4 - View Your Videos&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="570" y="785" width="120" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="QzIOGH5muQ9fat06fS6H-3" value="1) for 1 - Enter Slots for Weekend&lt;br&gt;2) for 2 - make button disabled.&lt;br&gt;3) for 3 - make button disabled.&amp;nbsp;&lt;br&gt;4) for 4 - make button disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JOrqGwb5oEIPBqW84mnf-0">
+          <mxGeometry x="810" y="785" width="120" height="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
