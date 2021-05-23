@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T02:56:52.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zit8GeE8wWk6UIfBOVye" version="14.7.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-23T02:57:58.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dg9hQyIeFRgrV_XgVP7W" version="14.7.0" type="github" pages="7">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -431,7 +431,7 @@
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-21" value="Conditional output depending on T Flag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="440" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-22" value="Challenge Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-22" value="Tournament Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="425" y="530" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-23" value="Edition 6 in progress. Click to enter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
@@ -449,16 +449,16 @@
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-27" value="Conditional output depending on T Flag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="820" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-28" value="Tournament Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-28" value="Challenge Centre" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="805" y="530" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-29" value="Edition 6 in progress. Click to enter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-29" value="Click to create a challenge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="820" y="570" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-30" value="Or" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="860" y="630" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-31" value="No Tournament in progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
+        <mxCell id="tVVVLwD2TYYB6Bo-vP0Z-31" value="Tournament in progress. no challenges" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3VjtW9psjbTRQYhc0I2s-2">
           <mxGeometry x="820" y="690" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
