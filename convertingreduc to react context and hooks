@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T02:27:12.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="XFp4yUxAx1gozIdvfrYp" version="14.7.0" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2021-05-24T06:23:11.686Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="l2sDvhbbPihdBA3SdJ3l" version="14.7.0" type="github" pages="37">
   <diagram id="2EGWadn-Hf55rqW4a51T" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3927,42 +3927,42 @@
           <mxGeometry x="80" y="120" width="380" height="320" as="geometry" />
         </mxCell>
         <mxCell id="jBFAG7gAF0i7Aa9_0SUs-0" value="Ranking Progression (Graph)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jBFAG7gAF0i7Aa9_0SUs-1" value="PDR Progression(Graph)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="710" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jBFAG7gAF0i7Aa9_0SUs-2" value="Overall Record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="210" y="130" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-3" value="Number of tournaments played" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-3" value="Number of Matches Played" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="100" y="180" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-5" value="Total Matches Won" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-5" value="Number of matches lost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="100" y="220" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-6" value="Total Matches Lost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-6" value="Number of games won" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="100" y="240" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-7" value="Winning %" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="100" y="370" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-8" value="FDR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="100" y="390" width="180" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="jBFAG7gAF0i7Aa9_0SUs-9" value="Total Points" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="100" y="410" width="180" height="20" as="geometry" />
+          <mxGeometry x="90" y="320" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-10" value="Total Games Won" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-10" value="Number of games lost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="100" y="260" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-11" value="Total Games Lost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-11" value="Winning %" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
           <mxGeometry x="100" y="280" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-15" value="Total Challenger Matches&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
-          <mxGeometry x="90" y="310" width="180" height="20" as="geometry" />
+        <mxCell id="tJnSrm-r0i5T2MfHcQZU-0" value="FDR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+          <mxGeometry x="100" y="300" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-4" value="Total Tournament Matches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CTM5j4BW0OERfE1bNBlb-1">
+        <mxCell id="tJnSrm-r0i5T2MfHcQZU-1" value="Total Weighted Points" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+          <mxGeometry x="90" y="340" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tJnSrm-r0i5T2MfHcQZU-2" value="Rank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q4gFKw-BeQum1V_qYLi3-0">
+          <mxGeometry x="90" y="360" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jBFAG7gAF0i7Aa9_0SUs-4" value="Number of matches won" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CTM5j4BW0OERfE1bNBlb-1">
           <mxGeometry x="140" y="240" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
