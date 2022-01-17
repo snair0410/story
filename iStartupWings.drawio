@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T09:01:38.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yksYrDnjYEgEmA4l93pK" version="16.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:14:47.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="aiVkenl7sF1I4BslOuZw" version="16.2.7" type="github" pages="7">
   <diagram id="rbAwEeXNuUjx4V6ViA0t" name="Home Page">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -370,6 +370,38 @@
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="1640" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CB86ztNFGx60kFPlIYwo" name="Form for Venture Builder">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="gmITcWojIvENKlO02Q1A-0" />
+        <mxCell id="gmITcWojIvENKlO02Q1A-1" parent="gmITcWojIvENKlO02Q1A-0" />
+        <mxCell id="KmQSsnDwsltljj_QViAN-0" value="Venture Builder Form" style="swimlane;fontSize=18;" vertex="1" parent="gmITcWojIvENKlO02Q1A-1">
+          <mxGeometry x="110" y="80" width="810" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-1" value="Full Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="170" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-2" value="Are you a single founder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="145" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-3" value="If No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="270" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-4" value="How any founders are there?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="122.5" y="220" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-5" value="City" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="122.5" y="265" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-6" value="Industry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="122.5" y="320" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KmQSsnDwsltljj_QViAN-7" value="Brief one liner of your idea" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="KmQSsnDwsltljj_QViAN-0">
+          <mxGeometry x="122.5" y="380" width="245" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
