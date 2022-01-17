@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T09:19:47.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="tX_s92xDcPR9vKegwGxd" version="16.2.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:28:12.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="9s18GJkPvhaUV_Mer2SB" version="16.2.7" type="github" pages="12">
   <diagram id="rbAwEeXNuUjx4V6ViA0t" name="Home Page">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -500,6 +500,95 @@
         </mxCell>
         <mxCell id="o2sv24oS2QFLHMp6auAs-3" value="City" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="o2sv24oS2QFLHMp6auAs-0">
           <mxGeometry x="120" y="180" width="245" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ts1_SdA8NBkXcFZgPMVs" name="The Team">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="r8oGV3xNP19ZKzpNFtEp-0" />
+        <mxCell id="r8oGV3xNP19ZKzpNFtEp-1" parent="r8oGV3xNP19ZKzpNFtEp-0" />
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-0" value="The Team" style="swimlane;" vertex="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
+          <mxGeometry x="400" y="160" width="1240" height="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="20" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-2" value="iStartupWings Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="30" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-3" value="Powered By" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="130" y="55" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="260" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-5" value="India Accelerator Logo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="270" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="730" y="50" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-7" value="Home" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="750" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-8" value="Our Team" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="910" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-9" value="Contact Us" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="1080" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-10" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;The iStartupWings Team&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="250" y="160" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-11" value="Sandeep Nair" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="350" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-12" value="CEO &amp;amp; Founder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="340" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-14" value="Ashish Bhatia" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="740" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-15" value="Co-Founder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="730" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-16" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Early Investors &amp;amp; Advisors&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="420" y="440" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-0" value="Pankaj Chaddah" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="80" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-1" value="Rohit Dalal" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="520" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-2" value="Neeraj Gupta" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="920" y="560" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-3" value="Rachit Bahri" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="80" y="800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-4" value="Gaurav Verma" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="520" y="800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-5" value="Viraj Sinh" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="q-SvRnXRYw34JwX3xAWL-0">
+          <mxGeometry x="920" y="800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q-SvRnXRYw34JwX3xAWL-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="1640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-6" value="Chirag Galundia" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
+          <mxGeometry x="480" y="1200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-7" value="Tejasvi Bhargava" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
+          <mxGeometry x="920" y="1200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pKdAR68JyuI2GLkywXNc-8" value="Sumit Mittal" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
+          <mxGeometry x="1320" y="1200" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
