@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T09:28:12.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="9s18GJkPvhaUV_Mer2SB" version="16.2.7" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:30:48.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="auIYJ0BLv_tc_uEUTpBU" version="16.2.7" type="github" pages="13">
   <diagram id="rbAwEeXNuUjx4V6ViA0t" name="Home Page">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
         <mxCell id="JtJ2rN92n4heIr2tVQup-11" value="Our Team (Page 12)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JtJ2rN92n4heIr2tVQup-1">
           <mxGeometry x="910" y="70" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JtJ2rN92n4heIr2tVQup-12" value="Contact Us" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JtJ2rN92n4heIr2tVQup-1">
-          <mxGeometry x="1080" y="70" width="100" height="30" as="geometry" />
+        <mxCell id="JtJ2rN92n4heIr2tVQup-12" value="Contact Us (Page 13)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JtJ2rN92n4heIr2tVQup-1">
+          <mxGeometry x="1060" y="70" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JtJ2rN92n4heIr2tVQup-13" value="&lt;div style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;iStartupWings - Give wings to your ideas. Build fast, build at scale, build together.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;iStartupWings is a startup platform in collaboration with India Accelerator to help young idea stage startups and founders. We ideate and invest in your ideas to turn your bright ideas into successful and scalable startups. Join us and bring your dreams to fruition.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JtJ2rN92n4heIr2tVQup-1">
           <mxGeometry x="250" y="160" width="720" height="200" as="geometry" />
@@ -589,6 +589,20 @@
         </mxCell>
         <mxCell id="pKdAR68JyuI2GLkywXNc-8" value="Sumit Mittal" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" vertex="1" parent="r8oGV3xNP19ZKzpNFtEp-1">
           <mxGeometry x="1320" y="1200" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O4dMGWMkai1IQbEXB9Z3" name="Contact Us">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="-hoojeLhMKl7tLg391do-0" />
+        <mxCell id="-hoojeLhMKl7tLg391do-1" parent="-hoojeLhMKl7tLg391do-0" />
+        <mxCell id="LpxYWx63tv_3SRz4kjL1-0" value="Contact Us" style="swimlane;" vertex="1" parent="-hoojeLhMKl7tLg391do-1">
+          <mxGeometry x="400" y="160" width="1240" height="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="LpxYWx63tv_3SRz4kjL1-15" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Beautifully Designed Contact Us Page&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LpxYWx63tv_3SRz4kjL1-0">
+          <mxGeometry x="420" y="160" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
