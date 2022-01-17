@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T09:18:03.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="I55xdU8Y4_njRZnczpyR" version="16.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-01-17T09:19:12.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gjODmUJM-mAoZgRLX-ti" version="16.2.7" type="github" pages="11">
   <diagram id="rbAwEeXNuUjx4V6ViA0t" name="Home Page">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -480,6 +480,26 @@
         </mxCell>
         <mxCell id="zCNtTxkhqLzW1iL4PqmM-4" value="Any industry specific expertise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="zCNtTxkhqLzW1iL4PqmM-0">
           <mxGeometry x="120" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mkLQi6rfVVLoZR--VdaE" name="Form for Tech Builder ">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="CkcJ8KScgRA2u61qxXY5-0" />
+        <mxCell id="CkcJ8KScgRA2u61qxXY5-1" parent="CkcJ8KScgRA2u61qxXY5-0" />
+        <mxCell id="o2sv24oS2QFLHMp6auAs-0" value="Wings Power Form" style="swimlane;fontSize=18;" vertex="1" parent="CkcJ8KScgRA2u61qxXY5-1">
+          <mxGeometry x="110" y="80" width="810" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="o2sv24oS2QFLHMp6auAs-1" value="Full Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="o2sv24oS2QFLHMp6auAs-0">
+          <mxGeometry x="170" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2sv24oS2QFLHMp6auAs-2" value="Name of startup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="o2sv24oS2QFLHMp6auAs-0">
+          <mxGeometry x="145" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2sv24oS2QFLHMp6auAs-3" value="City" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="o2sv24oS2QFLHMp6auAs-0">
+          <mxGeometry x="120" y="180" width="245" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
